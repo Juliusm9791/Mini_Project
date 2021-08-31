@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Wireframe</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS Snipped Cheatsheet Wireframe</h1>
+        </header>
+        <section>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, ea. Labore officiis repellendus unde illo debitis? Nemo, neque nam porro fugit delectus at! Voluptate cupiditate perferendis dolor consectetur rerum provident?</p>
+        </section>
+
+        <section>
+            <div class="card">
+                <div class="cardH"><h2>Flexbox Row</h2></div>
+                <p>Use these three properties to create a Flexbox row layout.</p>
+                <div class="cardCode">
+                    <code>.row {<br>
+                        &nbsp;&nbsp;display: flex;<br>
+                        &nbsp;&nbsp;flex-direction: row;<br>
+                        &nbsp;&nbsp;flex-wrap: wrap;<br>
+                      }</code>
+                    </div>                
+            </div>
+
+            <div class="card">
+                <div class="cardH"><h2>Flexbox Column</h2></div>
+                <p>Use this to create a Flexbox column layout.</p>
+                    <div class="cardCode">
+                    <code>.column {<br>
+                        &nbsp;&nbsp;display: flex;<br>
+                        &nbsp;&nbsp;flex-direction: column<br>
+                      }</code>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="cardH"><h2>CSS Grid Layout</h2></div>
+                <p>Build a 12-column layout using CSS Grid</p>
+                <div class="cardCode">
+                    <code>.grid {<br>
+                        &nbsp;&nbsp;display: grid;<br>
+                        &nbsp;&nbsp;width: 100%;<br>
+                        &nbsp;&nbsp;grid-template-columns: repeat(12, 1fr);<br>
+                      }</code>
+                    </div>                
+            </div>
+                
+            <div class="card">
+                <div class="cardH"><h2>Linear Gradients</h2></div>
+                <p>This will create a background linear gradient from top to bottom.</p>
+                <div class="cardCode">
+                    <code>.linear-gradient-background {<br>
+                        &nbsp;&nbsp;background-image: linear-gradient(<br>
+                        &nbsp;&nbsp;rgba(232, 102, 236, 0.3) 0%,<br>
+                        &nbsp;&nbsp;rgba(232, 102, 236, 0.6) 100%<br>
+                        &nbsp;&nbsp;);<br>
+                      }</code>
+                    </div> 
+            </div>
+            
+            <div class="card">
+                <div class="cardH"><h2>Box Transition Glow</h2></div>
+                <p>Use transition and box shadows to glow on hover.</p>
+                <div class="cardCode">
+                    <code>.code-card .card-header {<br>
+                        &nbsp;&nbsp;border-radius: 8px;<br>
+                        &nbsp;&nbsp;transition: all 0.5s ease-in-out;<br>
+                      }<br>
+                      <br>
+                      &nbsp;&nbsp;.code-card:hover,<br>
+                      &nbsp;&nbsp;.code-card:hover .card-header {<br>
+                        &nbsp;&nbsp;box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);<br>
+                      }</code>
+                    </div> 
+            </div>
+            
+            <div class="card">
+                <div class="cardH"><h2>Overlay Card with Title</h2></div>
+                <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+                <div class="cardCode">
+                    <code>.card-header {<br>
+                        &nbsp;&nbsp;position: relative;<br>
+                        &nbsp;&nbsp;margin-top: -20px;<br>
+                      }</code>
+                    </div> 
+            </div>
+        </section>
+
+        <footer>
+            <h1>Julius Markauskas<br><span>CSS Project</span></h1>
+        </footer>
+    </body>
+
+</html>
