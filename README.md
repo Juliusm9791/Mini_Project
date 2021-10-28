@@ -4,4 +4,4 @@
 
 ## Mock-Up
 The following images shows the web application's appearance:
-![Mini-project](./assets/images/Mini-project.JPG)
+![Mini-project](./assets/Images/Mini-project.JPG)
